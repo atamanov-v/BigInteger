@@ -8,15 +8,15 @@
 namespace apmath {
 
 /**
- * @brief BigNumber class implements work with arbitrary-precision arithmetic.
+ * @brief BigInteger class implements work with arbitrary-precision arithmetic.
  *
- * BigNumber is a simple class for working wtih arbitrary-precision integer arithmetic.
- * BigNumber supports addition, subtraction and comparison.
+ * BigInteger is a simple class for working wtih arbitrary-precision integer arithmetic.
+ * BigInteger supports addition, subtraction and comparison.
  */
 class BigInteger {
 public:
     /**
-     * @brief BigNumber constructor
+     * @brief BigInteger constructor
      * @param numberString - string representation of
      * a decimal integer number in format [+-][000]123456789
      */
@@ -125,12 +125,12 @@ private:
     void skipZeros();
     /**
      * @brief add - implements addition of the absolute values
-     * @param rhs - BigNumber to add
+     * @param rhs - BigInteger to add
      */
     void add(const BigInteger& rhs);
     /**
      * @brief sub - implements subtraction of the absolute values
-     * @param rhs - BigNumber to subtract
+     * @param rhs - BigInteger to subtract
      */
     void sub(const BigInteger& rhs);
     /**
