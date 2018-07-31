@@ -1,6 +1,6 @@
 # BigInteger
 
-BigInteger is a simple library for working with arbitrary-precision integer arithmetic. Library consist of BigInteger class, which supports addition, subtraction and comparison.
+BigInteger is a simple C++ library for working with arbitrary-precision integer arithmetic. Library consist of BigInteger class, which supports addition, subtraction and comparison.
 
 ## Getting Started
 

@@ -10,7 +10,7 @@ namespace apmath {
 /**
  * @brief BigInteger class implements work with arbitrary-precision arithmetic.
  *
- * BigInteger is a simple class for working wtih arbitrary-precision integer arithmetic.
+ * BigInteger is a simple class for working with arbitrary-precision integer arithmetic.
  * BigInteger supports addition, subtraction and comparison.
  */
 class BigInteger {
